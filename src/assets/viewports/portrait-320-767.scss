@@ -1,0 +1,190 @@
+/* Pantalla en vertical*/
+// @media (min-width: 320px) and (max-width: 767px)
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+
+	*{
+	  background-color: #201161;
+	  color: white !important;
+	}
+
+	#map{
+		display: none;
+	}
+
+
+	h1, h2, h3, a {
+	  font-family: 'Ultra', serif;
+	  color: #35D966 !important;
+	}
+
+	.segun{
+		width: 250px;
+		text-align: center;
+		font-family: 'Raleway', sans-serif !important;
+		-moz-transform: scale(1.1) rotate(-10deg) translate(20px, 5px);
+		-webkit-transform: scale(1.1) rotate(-10deg) translate(20px, 5px);
+		-o-transform: scale(1.1) rotate(-10deg) translate(20px, 5px);
+		-ms-transform: scale(1.1) rotate(-10deg) translate(20px, 5px);
+		transform: scale(1.1) rotate(-10deg) translate(20px, 5px);
+
+		box-shadow: 17px 10px 16px 1px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 17px 10px 16px 1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 17px 10px 16px 1px rgba(0,0,0,0.75);
+	}
+
+	div.home .d-lg-flex div.container.bg-accent{
+		margin-top: 5rem;
+	}
+
+	div.home .d-lg-flex div.container.bg-accent h4{
+		font-size: 16px;
+	}
+
+	.parent-intro{
+		background-color: red !important;
+		display: block;
+	}
+
+	.parent-intro .bg-accent h3{
+		font-size: 20px;
+	}
+
+	.colums-intro{
+		min-height: 200px;
+		padding: 10px;
+	}
+
+	// timeline
+
+	.btn.btn-secondary{
+		text-align: left;
+		padding: 0px;
+		border: none;
+	}
+
+	.my-popover-class{
+		color: red !important;
+	}
+
+	/* The actual timeline (the vertical ruler) */
+	.timeline {
+	  position: relative;
+	  max-width: 1200px;
+	  margin: 0 auto;
+	}
+
+	/* The actual timeline (the vertical ruler) */
+	.timeline::after {
+	  content: '';
+	  position: absolute;
+	  width: 6px;
+	  background-color: white;
+	  top: 0;
+	  bottom: 0;
+	  left: 50%;
+	  margin-left: -3px;
+	}
+
+	/* Container around content */
+	.c-point {
+	  padding: 10px 40px;
+	  position: relative;
+	  background-color: inherit;
+	  width: 50%;
+	}
+
+	/* The circles on the timeline */
+	.c-point::after {
+	  content: '';
+	  position: absolute;
+	  width: 25px;
+	  height: 25px;
+	  right: -60px;
+	  background-color: #201161;
+	  border: 4px solid #35D966;
+	  top: 15px;
+	  border-radius: 50%;
+	  z-index: 1;
+	}
+
+	/* Place the container to the left */
+	.left {
+	  left: -20%;
+	}
+
+	/* Place the container to the right */
+	.right {
+	  left: 55%;
+	}
+
+	/* Add arrows to the left container (pointing right) */
+	.left::before {
+	  content: " ";
+	  height: 0;
+	  position: absolute;
+	  top: 18px;
+	  width: 0;
+	  z-index: 1;
+	  left: 44vw;
+	  border: medium solid white;
+	  border-width: 10px 0 10px 10px;
+	  border-color: transparent transparent transparent white;
+	}
+
+	/* Add arrows to the right container (pointing left) */
+	.right::before {
+	  content: " ";
+	  height: 0;
+	  position: absolute;
+	  top: 18px;
+	  width: 0;
+	  z-index: 1;
+	  left: 2vw;
+	  border: medium solid white;
+	  border-width: 10px 10px 10px 0;
+	  border-color: transparent white transparent transparent;
+	}
+
+	/* Fix the circle for containers on the right side */
+	.right::after {
+	  left: -25px;
+	}
+
+	/* The actual content */
+	.content {
+	  padding: 0px 0px 0px 0px;
+	  background-color: #201161;
+	  position: relative;
+	  border-radius: 6px;
+	}
+
+	.velocidad-luz{
+		max-width: 90vw;
+	}
+
+	h2.velocidad-luz-valor{
+		font-size: 20px;
+	}
+
+	.rere .title{
+
+		display: block !important;
+		text-align: center;
+	}
+
+	.camera-box{
+		width: 50vw;
+		height: 40vh;
+	}
+
+	video.video-camera-re{
+		height: 40vh;
+		width: 75vw;
+		padding-right: 10px;
+	}
+
+
+
+
+    
+}

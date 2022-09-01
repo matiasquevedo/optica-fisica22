@@ -1,0 +1,73 @@
+<template>
+	<div class="punto-distancia container mt-5" >
+
+    <div class="bg-accent p-3">
+      <h3>Lente de Aumento Simple</h3>
+    </div>
+
+    <div class="bg-accent p-3 mt-3">
+      <p>La lente de aumento simple
+crea una imagen virtual, cuyo tamaño angular ur es mayor
+que el tamaño angular u del objeto mismo a una distancia
+de 25 cm, la mínima distancia nominal para una visión 
+cómoda.</p>
+    </div>
+
+
+
+
+
+
+	</div>
+
+</template>
+
+<style>
+
+
+
+.parent-punto-distancia{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+}
+
+.parent-punto-distancia div{
+  max-width: 40vw;
+}
+
+</style>
+
+<script>
+
+
+
+  export default {
+    name: 'Home',
+
+    components: {
+
+    },
+
+    props: {
+
+    },
+
+    computed: {
+    },
+
+    data () {
+        return {
+            luz: true,
+        }
+        
+    },
+
+    methods:{
+
+
+    },
+  }
+</script>
