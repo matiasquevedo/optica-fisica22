@@ -14,10 +14,13 @@
     <div class="parent-di-fra-fre">
       <div>
         <p>Según Fraunhofer</p>
+        <Fraun></Fraun>
+
       </div>
 
       <div>
         <p>Según Fresnel</p>
+        <Fresnel></Fresnel>
       </div>
     </div>
 
@@ -50,13 +53,16 @@
 
 <script>
 
+import Fraun from '@/components/Fraun.vue'
+import Fresnel from '@/components/Fresnel.vue'
 
 
   export default {
     name: 'Home',
 
     components: {
-
+      Fraun,
+      Fresnel
     },
 
     props: {

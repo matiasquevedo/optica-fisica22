@@ -13,6 +13,10 @@ de 25 cm, la mínima distancia nominal para una visión
 cómoda.</p>
     </div>
 
+    <div class="text-center">
+      <Lupa></Lupa>
+    </div>
+
 
 
 
@@ -42,13 +46,15 @@ cómoda.</p>
 
 <script>
 
+import Lupa from '@/components/Lupa.vue'
+
 
 
   export default {
     name: 'Home',
 
     components: {
-
+      Lupa
     },
 
     props: {

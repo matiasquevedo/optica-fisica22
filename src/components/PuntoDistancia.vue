@@ -16,9 +16,7 @@
           <h4>Punto Focal</h4>
           <p>El punto focal de un espejo es el punto donde los rayos paralelos convergen después de reflejarse en un espejo cóncavo, o bien, el punto desde el que parecen divergir después de reflejarse en un espejo convexo.</p>
 
-          <div>
-            <PuntoTre></PuntoTre>
-          </div>
+          
         </div>
 
         <div class="bg-accent p-3 mt-3">
@@ -27,6 +25,10 @@
         </div>
         
       </div>
+    </div>
+
+    <div>
+      <PuntoTre></PuntoTre>
     </div>
 
 

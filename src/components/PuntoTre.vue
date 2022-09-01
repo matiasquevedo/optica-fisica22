@@ -1,11 +1,36 @@
 <template>
 	<div class="container" >
-    <h3>Punto Focal</h3>
+
+        <div class="parent-punto-distancia">
+
+            <div >
+                <div class="p-3">                    
+                    <h5>Espejo cóncavo</h5>
+                </div>
+                <img class="folca" src="/focal.gif"  alt="" @mouseover="hovercn = true" @mouseleave="hovercn = false">
+
+                <div :class="hovercn ? 'hovercn' : 'd-none'">
+                    <h3>Punto Focal</h3>
+                </div>
+
+                <div :class="hovercn ? 'hovercn-distancia' : 'd-none'">
+                    <h5>Distancia</h5>
+                </div>
+            </div>
 
 
-    <div class="half-circle">
-      
-    </div>
+
+            <div >
+                <div class="p-3">                    
+                    <h5>Espejo convexo</h5>
+                </div>
+                <img class="folca" src="/focal-con.gif"  alt="" @mouseover="hovercx = true" @mouseleave="hovercx = false">
+                <div :class="hovercx ? 'hovercx' : 'd-none'">
+                    <h3>Punto Focal</h3>
+                </div>
+            </div>
+            
+        </div>
 
 
 
@@ -16,19 +41,32 @@
 
 <style>
 
-
-.half-circle {
-    width: 200px;
-    height: 100px; /* as the half of the width */
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border: 10px solid gray;
-    border-bottom: 0;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+img.folca{
+    width: 40vw;
 }
+
+.hovercn{
+    position: relative;
+    bottom: 10.5rem;
+    left: 10.5rem;
+    width: 20px;
+}
+
+.hovercx{
+    position: relative;
+    bottom: 9.5rem;
+    left: 20rem;
+    width: 20px;
+}
+
+.hovercn-distancia{
+    position: relative;
+    bottom: 13.5rem;
+    left: 22rem;
+    width: 20px;
+}
+
+
 
 </style>
 
@@ -54,6 +92,8 @@
     data () {
         return {
             luz: true,
+            hovercn:false,
+            hovercx:false,
         }
         
     },
