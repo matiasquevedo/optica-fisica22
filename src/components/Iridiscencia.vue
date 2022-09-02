@@ -69,7 +69,7 @@
   border-radius: 16px;
   background-size: 180% 180%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  -webkit-animation: rainbow 1.8s linear infinite;
+  -webkit-animation: rainbow 1.8s ease infinite;
   backdrop-filter: blur(2.3px);
   -webkit-backdrop-filter: blur(6.3px);
   /*border: 1px solid rgba(255, 255, 255, 0.51);*/

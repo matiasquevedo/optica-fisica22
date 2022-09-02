@@ -43,7 +43,7 @@
 }
 
 .parent-interferencia img{
-  width: 100%;
+  width: 45vw;
 }
 
 </style>

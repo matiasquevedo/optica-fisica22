@@ -43,7 +43,7 @@ router.afterEach((to) => {
     // Use next tick to handle router history correctly
     // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
     Vue.nextTick(() => {
-        document.title = to.meta.title +' - Calma Medicina' || DEFAULT_TITLE;
+        document.title = to.meta.title +' - Física 2022' || DEFAULT_TITLE;
     });
 });
 

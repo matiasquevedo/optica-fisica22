@@ -17,6 +17,8 @@
 	  color: #35D966 !important;
 	}
 
+
+
 	.segun{
 		width: 250px;
 		text-align: center;
@@ -143,6 +145,12 @@
 	  background-color: #201161;
 	  position: relative;
 	  border-radius: 6px;
+	}
+
+	span.badge.badge-pill{
+		background-color: red !important;
+		color: white !important;
+		border: 15px red solid
 	}
 
 

@@ -17,6 +17,23 @@
 	  color: #35D966 !important;
 	}
 
+	h1.title{
+		font-size: 40px !important;
+	}
+
+	h1.title > div.title{
+		font-size: 40px;
+	}
+
+	p{
+	  font-size: 1rem !important;
+	}
+
+
+	span.badge{
+		color: #212529 !important;
+	}
+
 	.segun{
 		width: 250px;
 		text-align: center;
@@ -182,6 +199,112 @@
 		width: 75vw;
 		padding-right: 10px;
 	}
+
+	div.post-it{
+	  top: 475vh !important;
+	  right: 1vw !important;
+	}
+
+	div.notas{
+		background-color: #78E898 !important;
+
+		
+
+		height:17vh;
+		width:17vh;
+
+	}
+
+	div.notas * {
+		color: #000000 !important;
+		font-size: 5px !important;
+	}
+
+	div.lenguaje-matematico h3{
+		font-size: 1.5rem !important;
+	}
+
+	div.lenguaje-matematico-refraccion h3{
+		font-size: 0.9rem !important;
+	}
+
+	.parent-punto-distancia{
+		display: block;
+	}
+
+	.parent-punto-distancia div{
+	  max-width: 100vw;
+	}
+
+	img.folca{
+	    width: 70vw;
+	}
+
+	.hovercn, .hovercx, .hovercn-distancia{
+		display: none !important;
+	}
+
+	img.lupa{
+	    width: 70vw;
+	}
+
+	.parent-interferencia{
+		display: block;
+	}
+
+	.parent-interferencia img{
+		width: 80vw;
+	}
+
+	.parent-di-fra-fre{
+	  grid-column-gap: 20px;
+	}
+
+
+	.segun-fra, .segun-fre{
+		text-align: center;
+	}
+
+	.segun-fre{
+		padding-right: 1rem;
+	}
+
+
+	.glassy-container{
+	  margin-top: 5rem !important;
+	}
+
+	.glassy-container p{
+	  font-size: 2rem !important;
+	  font-family: 'Ultra', serif;
+	  font-weight: 900;
+	}
+
+
+	.glassy{
+	  /* From https://css.glass */
+	  height: 25vh;
+	  width: 25vw;
+	  left: 30vw !important;
+	  bottom: 17vh !important;
+	  /*background: rgba(255, 255, 255, 0.15);*/
+	  background: linear-gradient(45deg, #ffffff33,#ffffff33,#ffffff33,#ffffff33,#ffffff33,#ffffff33, #ff240033, #e81d1d33, #e8b71d33,#ffffff33, #e3e81d1A,#ffffff33, #1de84033, #1ddde81A,#ffffff33, #2b1de833, #dd00f333, #dd00f333, #ffffff33,#ffffff33,#ffffff33,#ffffff33,#ffffff33,#ffffff1A);
+	  border-radius: 16px;
+	  background-size: 280% 280%;
+	  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	  -webkit-animation: rainbow 1.8s ease infinite;
+
+	  -moz-transform: rotate(70deg) !important;
+	  -webkit-transform: rotate(70deg) !important;
+	  -o-transform: rotate(07deg) !important;
+	  -ms-transform: rotate(70deg) !important;
+	  transform: rotate(70deg) !important;
+
+	}
+
+
+
+
 
 
 

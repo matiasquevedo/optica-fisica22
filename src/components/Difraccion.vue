@@ -13,13 +13,13 @@
 
     <div class="parent-di-fra-fre">
       <div>
-        <p>Según Fraunhofer</p>
+        <p class="segun-fra">Según Fraunhofer</p>
         <Fraun></Fraun>
 
       </div>
 
       <div>
-        <p>Según Fresnel</p>
+        <p class="segun-fre">Según Fresnel</p>
         <Fresnel></Fresnel>
       </div>
     </div>

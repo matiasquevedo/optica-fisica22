@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-  	companyName:"Calma Medicina",
+  	companyName:"Física 2022",
   	token: JSON.parse(localStorage.getItem('token')),
   	admin: JSON.parse(localStorage.getItem('admin')),
   },

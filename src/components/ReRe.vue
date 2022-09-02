@@ -11,9 +11,9 @@
 		<div class="description mt-3 bg-accent p-3">
 
       <h3>Reflexión</h3>
-      <h4>Es el cambio de dirección de un rayo u onda, que ocurre en la superficie de separación entre dos medios, de la forma que regresa al medio inicial</h4>
+      <p>Es el cambio de dirección de un rayo u onda, que ocurre en la superficie de separación entre dos medios, de la forma que regresa al medio inicial</p>
 
-      <div class="text-center">
+      <div class="text-center lenguaje-matematico">
         En lenguaje matemático:
         <h3>θ <sub>r</sub> = θ <sub>a</sub></h3>
       </div>
@@ -29,9 +29,9 @@
       <br>
 
       <h3>Refracción</h3>
-      <h4>Cambio de dirección de un rayo de luz u otra radiación que se produce al pasar oblicuamente de un medio a otro de distinta densidad.</h4>
+      <p>Cambio de dirección de un rayo de luz u otra radiación que se produce al pasar oblicuamente de un medio a otro de distinta densidad.</p>
 
-      <div class="text-center">
+      <div class="text-center lenguaje-matematico-refraccion">
         En lenguaje matemático:
         <h3>
           n <sub>a</sub> . sen θ <sub>a</sub>  = n <sub>b</sub> . sen θ <sub>b</sub> 
@@ -84,9 +84,6 @@
 	border-radius: 50% 50%;
 }
 
-.velocidad .description{
-    font-size: 1.3rem;
-}
 
 
 </style>

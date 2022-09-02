@@ -6,7 +6,7 @@
     </div>
 
     <div class="bg-accent p-3 mt-3">
-      <p>Para un espejo</p>
+      <h4>Para un espejo</h4>
     </div>
 
     <div class="container">
