@@ -3,9 +3,16 @@
 		<div class="d-lg-flex">
 			<div class="container">
 				<h1 class="title">
-					<span>7</span> conceptos clave para dominar la
+					<span>8</span> conceptos clave para dominar la
 					<div :class="luz ? 'title text-flicker-in-glow' : 'title luz-off'">
 						Óopt!ca
+					</div>
+
+					<div class="toggle-div">
+						<div class="toggle">
+						  <input type="checkbox" v-model="luz" id="temp">
+						  <label for="temp"></label>
+						</div>
 					</div>
 				</h1>
 				
@@ -14,16 +21,20 @@
 					<p>Según Sears ⦿ Zemansky</p>
 				</div>
 
-				<div class="form-check form-switch">
-				  <input class="form-check-input" type="checkbox" v-model="luz" role="switch" id="flexSwitchCheckDefault">
 
-				</div>
+
+	
+
+
+
 
 			</div>
-			<div class="container p-4 bg-accent">
-				<h4>Universidad de Mendoza - <b>Física</b> - 2022</h4>
-				<h4>Ramiro <b>Giandinoto</b></h4>
-				<h4>Matías <b>Quevedo Cotela</b></h4>
+			<div class="container my-auto py-5 px-3 bg-accent">
+				<div>
+					<h4>Universidad de Mendoza - <b>Física</b> - 2022</h4>
+					<h4>Ramiro <b>Giandinoto</b></h4>
+					<h4>Matías <b>Quevedo Cotela</b></h4>
+				</div>
 			</div>
 		</div>
 
@@ -103,6 +114,13 @@
 
 		font-size: 1rem !important;
 	}
+
+	.toggle-div{
+		position: relative;
+		margin-left: 4rem;
+	}
+
+
 </style>
 
 <script>

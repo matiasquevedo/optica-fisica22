@@ -2,10 +2,13 @@
 	<div class="intro container mt-5">
 
 		<div class="parent-intro">
-			<div class="bg-accent colums-intro">
-				<h3>
-					<b>Ó́ptica</b>, rama de la física,que se ocupa del comportamiento de la luz y otras ondas electromagnéticas.
-				</h3>
+			<div class="colums-intro">
+				<div class="bg-accent px-5 py-3">
+					<h3>
+						<b>Ó́ptica</b>, rama de la física,que se ocupa del comportamiento de la luz y otras ondas electromagnéticas.
+					</h3>
+				</div>
+
 			</div>
 
 			<div class=" colums-intro">
@@ -30,7 +33,6 @@
 
 .colums-intro{
 	min-height: 200px;
-	padding: 25px;
 }
 
 </style>

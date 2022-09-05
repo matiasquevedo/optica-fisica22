@@ -20,12 +20,8 @@
 
 
 
-.parent-di-fra-fre{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 25px;
-  grid-row-gap: 0px;
+.fresnel{
+  position: relative;
 }
 
 .parent-di-fra-fre div{
@@ -47,12 +43,13 @@ div.fren.borde:nth-child(1){
   filter: blur(6px);
   border: 1px white solid;
   z-index: 10;
+  animation: move-opacitylowone 6s ease infinite;
 
 
 }
 
 div.fren.borde:nth-child(2){
-  width: 19vw;
+  width: 21.5vw;
   height: 29vh;
 
   filter: blur(2px) !important;
@@ -64,42 +61,42 @@ div.fren.borde:nth-child(2){
 }
 
 div.fren.borde:nth-child(3){
-  width: 19vw;
-  height: 29vh;
+  width: 20.8vw;
+  height: 27.7vh;
 
-  filter: blur(2px) !important;
+  filter: blur(8px) !important;
   background-color: #FFFFFF;
-  opacity: 0.8;
-  filter: blur(2px);
+  opacity: 0.5;
   z-index: 14;
+  top: -4px;
+  left: 11px;
+  animation: move-opacitylowtre 1s ease infinite;
 
 }
 
 div.fren.borde:nth-child(4){
-  width: 17vw;
-  height: 28vh;
+  width: 20.2vw;
+  height: 26.5vh;
 
-  filter: blur(2px) !important;
+  filter: blur(6px) !important;
   background-color: #201161;
-  opacity: 0.8;
+  opacity: 0.9;
   filter: blur(26px);
   z-index: 15;
+
 
 }
 
 div.fren.borde:nth-child(5){
-  width: 16vw;
-  height: 27vh;
+  width: 19vw;
+  height: 24.3vh;
   background-color: #FFFFFF;
-  filter: blur(2px);
+  filter: blur(1px);
+  opacity: 1;
   z-index: 20;
-
-}
-
-div.fren.borde4{
-  width: 11vw;
-  height: 25vh;
-  background-color: yellow;
+  top: 6px; 
+  left: 23px;
+  animation: move-opacitylow 1s linear infinite;
 
 }
 

@@ -33,8 +33,8 @@
     position: fixed;
     top: 15px;
     right: 20px;
-    width: 200px;
-    height: 100%;
+    width: 150px;
+    height: 500px;
     z-index: 10000;
     background-color: rgba(255,255,255,0.3) !important;
 }
@@ -75,7 +75,7 @@ export default {
         viewport: null,
         styles: {
             'header,section,article': 'rgba(0,0,0,0.8)',
-            'h1,a,div.title,div.timeline,footer.footer, img': 'rgba(0,0,0,0.1)',
+            'h1,a,div.title,div.timeline,footer.footer, img, div.di-animation': 'rgba(0,0,0,0.1)',
             'h2,h3,h4,button': 'rgba(0,0,0,0.08)',
             'div.bg-accent':'rgba(0,0,0,0.1)',
         },

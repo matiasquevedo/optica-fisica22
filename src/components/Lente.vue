@@ -6,14 +6,21 @@
     </div>
 
     <div class="bg-accent p-3 mt-3">
-      <p>La lente de aumento simple
-crea una imagen virtual, cuyo tamaño angular ur es mayor
-que el tamaño angular u del objeto mismo a una distancia
-de 25 cm, la mínima distancia nominal para una visión 
-cómoda.</p>
+      <p>
+        La lente de aumento simple es una lente convergente que, cuando el objeto a observar se sitúa a una distancia de la lente que es inferior a su distancia focal, la lente produce una imagen virtual, derecha y de mayor tamaño que el objeto.
+
+      </p>
     </div>
 
-    <div class="text-center">
+    <div class="bg-accent p-3 mt-3">
+      <p>
+        El aumento que proporciona una lente convergente es inversamente proporcional a su distancia focal y esta se encuentra relacionada con el radio de curvatura de sus caras. <br><br> Cuanto más pequeña sea una lente y más curvatura tengan sus caras mayor aumento producirá cuando se utilice como lupa.
+      </p>
+    </div>
+
+    
+
+    <div class="text-center mt-3">
       <Lupa></Lupa>
     </div>
 

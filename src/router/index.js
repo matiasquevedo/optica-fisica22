@@ -14,7 +14,7 @@ const routes = [
     name: 'Home',
     component: HomeView,
     meta: {
-      title: 'Inicio',
+      title: 'Óptica',
       metaTags: [
         {
           name: 'description',

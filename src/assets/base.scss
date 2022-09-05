@@ -6,6 +6,12 @@
 @import './viewports/portrait-320-767.scss';
 @import './viewports/portrait-768-991.scss';
 
+$bg-color: #FFFFFF;
+$toggle-bg-color: #502F7D;
+$toggle-nub-color: #35D966;
+$font-color: #4FBCA1;
+
+
 *, button:not(.btn){
   background-color: #201161;
   color: white;
@@ -135,6 +141,68 @@ div.camera-rere{
   margin-bottom: 4rem;
 }
 
+
+.b-form-spinbutton.form-control, .b-form-spinbutton > * , bdi {
+  background-color: #201161 !important;
+  color: white !important;
+}
+
+
+.toggle{
+  
+  margin-top: 40px;
+  input[type="checkbox"]{
+    display: none;
+  }
+  
+  label{
+    color: $font-color;
+    position: absolute;
+  }
+  
+  input[type="checkbox"] + label::before{
+    content: ' ';
+    display: block;
+    height: 18px;
+    width: 45px;
+    border: 1px solid $toggle-bg-color;
+    border-radius: 9px;
+    position: absolute;
+    top: 0px;
+    left: -65px;
+    background: $toggle-bg-color;
+  }
+  
+  input[type="checkbox"] + label::after{
+    content: ' ';
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid $toggle-nub-color;   
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: -75px;
+    background: $toggle-nub-color;
+    transition: all 0.3s ease-in;
+  }
+  
+  input[type="checkbox"]:checked + label::after{
+    left: -40px; 
+    transition: all 0.3s ease-in;
+  }
+}
+
+
+.selector.circle{
+   background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 37%, rgba(117,117,117,0) 66%, rgba(255,255,255,0) 94%, rgba(255,255,255,1) 100%); 
+  display: block;
+}
+
+.zoomer.inner-zoomer{
+  border-radius: 50% 50%;
+}
 
 // Animations
 // Animations
@@ -355,5 +423,78 @@ div.text-flicker-in-glow::hover{
 
   100% {
     opacity: 10;
+  }
+}
+
+
+@-webkit-keyframes move-opacitylow{
+  0% {
+    opacity: 1;
+
+  }
+
+
+  20% {
+    opacity: 0.92;
+
+  }
+
+  40% {
+    opacity: 0.94;
+
+  }
+
+  60% {
+    opacity: 0.96;
+
+  }
+
+  80% {
+    opacity: 0.98;
+
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes move-opacitylowtre{
+  0% {
+    opacity: 0.5;
+
+  }
+
+
+
+  50% {
+    opacity: 0.6;
+    filter: blur(10px) !important;
+  }
+
+
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes move-opacitylowone{
+  0% {
+    opacity: 0.3;
+
+  }
+
+
+
+  50% {
+    opacity: 0.1;
+    filter: blur(8px) !important;
+  }
+
+
+
+  100% {
+    opacity: 0.3;
   }
 }
